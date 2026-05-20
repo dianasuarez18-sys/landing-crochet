@@ -1,0 +1,158 @@
+body{
+margin:0;
+font-family:Arial;
+background:#fff5f7;
+color:#444;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 50px;
+background:white;
+position:sticky;
+top:0;
+}
+
+.logo{
+color:#b05d8b;
+}
+
+nav ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:60px;
+flex-wrap:wrap;
+}
+
+.hero-texto{
+max-width:500px;
+}
+
+.hero h1{
+font-size:55px;
+color:#b05d8b;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:20px;
+}
+
+.hero button,
+.card button,
+.formulario button{
+
+background:#b05d8b;
+color:white;
+border:none;
+padding:15px 25px;
+border-radius:10px;
+cursor:pointer;
+}
+
+.hero-img img{
+width:400px;
+border-radius:20px;
+}
+
+.galeria,
+.cursos,
+.beneficios,
+.testimonios,
+.formulario{
+
+padding:60px 20px;
+text-align:center;
+}
+
+.imagenes{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.imagenes img{
+width:300px;
+border-radius:15px;
+}
+
+.cards,
+.benefit-grid,
+.test-grid{
+
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card,
+.benefit,
+.testimonio{
+
+background:white;
+padding:25px;
+border-radius:15px;
+width:260px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+#crochetForm{
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+#crochetForm input,
+#crochetForm select,
+#crochetForm textarea{
+
+padding:15px;
+border-radius:10px;
+border:1px solid #ddd;
+font-size:16px;
+}
+
+#crochetForm textarea{
+height:120px;
+}
+
+footer{
+background:#b05d8b;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+}
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.hero h1{
+font-size:38px;
+}
+
+.hero-img img{
+width:90%;
+}
+
+}
